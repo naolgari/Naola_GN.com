@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c++</title>
+    <style>
+        body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 214, 180);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .bb{
+        text-align: left;
+    }
+    span{
+        text-align: left;
+        border: 4px;
+    }
+    h1{
+        text-align: center ;
+    }
+    li a{
+        float: right;
+        background-color: rgb(255, 0, 0);
+        text-decoration: none;
+        border-radius: 15px;
+        padding-right: 40px;
+
+
+    }
+    li a:hover{
+        color: black;
+        background-color: rgb(43, 255, 0);
+    }
+    .uuu{
+        color: rgb(248, 248, 248);
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        font-family: cursive;
+        background-color: rgb(203, 52, 52);
+       
+        border-width: 90%;
+        height: 90px;
+    
+    }
+    .uuu:hover{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 0, 0);
+   
+
+    </style>
+    
+</head>
+<body>
+    <h1 class="uuu">>>>>>>NAOLA SCHOOL ACADAMIY>>>>>>>></h1>
+    <h1> C plus plus (C++)</h1>
+    <li><a href="index.html" class="hh"><h3>HOME</h2></a></li>
+    <p><h2><CSE 1102  Fundamentals of Programming Lecture #1</h2></p>
+    <p>Spring 2023
+
+
+        Computer Science & Engineering Program
+         School of Electrical Engineering & Computing
+        Adama Science & Technology University
+    
+        </p>
+        <p><h1>chapter one</h1></p>
+        <p><h4>Problem solving life cycle
+            Basics of programming language
+            
+            Case study: Heat Transfer
+                    Guess a Number Game 
+            <img src="https://media.istockphoto.com/id/1010690668/photo/power-of-big-data-binary-code-information-bit-on-computer-monitor-screen-display-led-light.webp?b=1&s=170667a&w=0&k=20&c=BAOuBm1FZEzxsN1zDkYCv2TG9cIY8IxTWuj-EglLvo8=" alt="">
+            
+            Reading assignment
+            Chapter 1 of the textbook
+            Read about 
+            Computer Storage
+            How a computer runs programs?
+            Pseudo Code and Flowchart
+            -Heat Transfer Notes
+            http://www.freestudy.co.uk/heat%20transfer/
+            </h4></p>
+
+      <p>Problem Solving Life Cycle
+        Phase 1: Development
+        Phase 2: Documentation
+        Phase 3: Maintenance
+        Basics of Programming Language
+        Programming Languages
+        Low level and High level languages
+        Compiled vs. Interpreted
+        Procedural and Object Oriented
+        Compilation in C++
+        General Notes on C++
+        </p> 
+        <img src="https://media.istockphoto.com/id/1010593510/photo/constructing-a-new-software-design.webp?b=1&s=170667a&w=0&k=20&c=kNer3HySq7DJUTDwlZ_ZlJmnmRpuVGzMRY1Jl5zUy5c=" alt="">
+    <div class="bb"><nav>
+        <p>*  Computer Program
+            Self-contained set of instructions used to 
+            instruct a computer to produce specific result
+            
+            Problem Solving Life Cycle
+            Also called Software Development Procedure
+            
+            Helps developers understand the problem 
+            to be solved and create an effective,            appropriate software solution
+            </p>
+    </nav></div> 
+    <span><p>16
+         Key words should not be used as names for identifiers.
+        2.5.1.4. Initializing Variables.
+         When a variable is assigned a value at the time of declaration,
+        it is called variable initialization.
+         The syntax:
+        DataType variable name = initial value;
+        e.g. int a = 0;
+        2.5.1.5. Scope of Variables.
+         In C++, we can declare variables any where in the source
+        code. But we should declare a variable before using it no
+        matter where it is written.
+         Global variables: can be referred any where in the code,
+        within any function, as long as it is declared first.
+         Local Variables: the scope of the local variable is limited to the
+        code level in which they are declared.</p>
+        <p>e.g:
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nJTIwaW1hZ2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+        #includeiostream
+        int num1;
+        char character;
+        void main()
+        {
+        unsigned short age;
+        float num2;
+        cout<<”\n Enter your age:”;
+        …
+        }</p>
+        p
+
+        <p> In C++ the scope of a local variable is given by the block in
+        which it is declared (a block is a group of instructions grouped
+        together within curly brackets {} signs). If it is declared within
+        a function, it will be a variable with a function scope. If it is
+        declared in a loop, its scope will be only in the loop, etc.
+        2.5.1.6. Defining a data type (User defined data type)
+         The “typedef” Keyword is used to define a data type by the
+        programmer.</p>
+        <p> It is very difficult to write unsigned short int many times in
+        your program. C++ enables you to substitute an alias for such
+        17
+        phrase by using the keyword typedef, which stands for type
+        definition.</p>
+        <p>E.g.:
+        #include<iostream>
+        typedef unsigned short int USHORT;
+        void main()
+        {
+        USHORT width = 9;
+        …</p>
+        }
+        <img src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.webp?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=" alt="">
+        <p>2.5.1.7. Wrapping around in signed integers.
+         A signed integer differs from an unsigned integer in that half
+        of its value is negative. When the program runs out of positive
+        numbers, the program moves into the largest negative
+        numbers and then counts back to zero.
+        E.g.: 32767 + 1  -32769-8  0
+        2.5.1.8. Wrapping around in unsigned integers
+         When an unsigned integer reaches its maximum value, it
+        wraps around and starts over.
+        E.g.: 65535 + 1  0  65535
+        2.5.1.9. Characters.
+         Characters variables (type char) are typically one byte in size,
+        enough to hold 256 different values. A char can be represented
+        as a small number (0 - 255).
+         Char in C++ are represented as any value inside a single
+        quote.</p>
+        <p>E.g.: ‘x’, ‘A’, ‘5’, ‘a’, etc.
+         When the compiler finds such values (characters), it translates
+        back the value to the ASCII values. E.g. ‘a’ has a value 97 in
+        ASCII.
+        2.5.1.10. Special Printing characters.
+         In C++, there are some special characters used for formatting.
+        These are:
+        \n new line
+        \t tab
+        \b backspace
+        \” double quote
+        18
+        \’ single quote
+        \? Question mark
+        \\ backslash
+        2.5.2. Constants.</p>
+        <p> A constant is any expression that has a fixed value.
+         Like variables, constants are data storage locations. But, constants,
+        unlike variables do not change.
+         Constants must be initialized when they are created by the program,
+        and the program can’t assign a new value to a constant later.
+         C++ provides two types of constants: literal and symbolic constants.
+         Literal constant: is a value typed directly into the program wherever
+        it is needed.
+        E.g.: int num = 43;
+        43 is a literal constant in this statement:
+         Symbolic constant: is a constant that is represented by a name,
+        similar to that of a variable. But unlike a variable, its value can’t be
+        changed after initialization.</p>
+        E.g.:
+        <p><h1>chapter two</h1></p>
+        <p>nt studentPerClass =15;
+        students = classeIs * studentPerClass;
+        studentPerClass is a symbolic constant having a value of 15.
+         In C++, we have two ways to declare a symbolic constant. These are
+        the #define and the const method.
+        2.5.2.1.defining constants with #define:
+         The #define directive makes a simple text substitution.
+        E.g.: #define studentPerClass 15
+         In our example, each time the preprocessor sees the word
+        studentPerClass, it inserts 15 into the text.
+        2.5.2.2.defining constants with the key word const:
+         Here, the constant has a type, and the compiler can ensure
+        that the constant is used according to the rules for that type.
+        E.g.: const unsigned short int studentPerClass = 15;
+        2.5.3. Enumerated constants.</p>
+        <p> Enables programmers to define variables and restrict the value of
+        that variable to a set of possible values which are integer.
+         The enum type can not take any other datatype than int
+         enum types can be used to set up collections of named integer
+        constants. (The keyword enum is short for ``enumerated''.)
+        19
+         The traditional way of doing this was something like this:
+        #define SPRING 0
+        #define SUMMER 1
+        #define FALL 2
+        #define WINTER 3</p>
+        <p> An alternate approach using enum would be
+        enum { SPRING, SUMMER, FALL, WINTER };
+         You can declare COLOR to be an enumeration, and then you can
+        define five possible values for COLOR: RED, BLUE, GREEN, WHITE
+        and BLACK.
+        E.g.: enum COLOR {RED,BLUE,GREEN,WHITE,BLACK};
+         Every enumerated constant has an integer value. If the programmer
+        does not specify otherwise, the first constant will have the value 0,
+        and the values for the remaining constants will count up from the
+        initial value by 1. thus in our previous example RED=0, BLUE=1,
+        GREEN=3, WHITE=4 and BLACK=5
+         But one can also assign different numbers for each.
+        E.g.: enum COLOR{RED=100,BLUE,GREEN=500,WHITE,BLACK=700};
+        2.6. Setting aside memory/memory concept.
+         A computer provides RAM for storing executable program code as
+        well as the data the program manipulates.
+         Memory can be thought of as a contiguous sequence of bits, each of
+        which is capable of storing a binary digit. Typically, the memory is
+        divided into groups of 8 consecutive bits called bytes.
+         The bytes are sequentially addressed. Therefore, each byte can be
+        uniquely identified by its address.</p>
+        <p>Byte address
+        … 1211 1212 1213 1214 1215 1216 1217 … memory
+        … byte byte byte byte byte byte byte …
+        bit
+        2.7. Expressions and Statements.
+         In C++, a statement controls the sequence of execution, evaluates an
+        expression, or does nothing (the null statement).
+        1 1 0 1 0 0 0 1
+        20
+         All C++ statements end with a semicolon.
+        E.g.: x = a + b;
+        The meaning is: assign the value of the sum of a and b to x.
+         White spaces: white spaces characters (spaces, tabs, new lines) can’t
+        be seen and generally ignored in statements. White spaces should be
+        used to make programs more readable and easier to maintain.
+         Blocks: a block begins with an opening French brace ({) and ends
+        with a closing French brace (}).
+         Expressions: an expression is a computation which yields a value. It
+        can also be viewed as any statement that evaluates to a value (returns
+        a value).</p>
+        <p>E.g.: the statement 3+2; returns the value 5 and thus is an expression.
+         Some examples of an expression:
+        E.g.1: 3.2 returns the value 3.2
+        PI float constant that returns the value 3.14.
+        secondsPerMinute int constant that returns 60
+        E.g.2: complicated expressions:
+        x = a + b;
+        y = x = a + b;
+        The second line is evaluated in the following order:
+        1. add a to b.
+        2. assign the result of the expression a + b to x.
+        3. assign the result of the assignment expression x = a + b to y.
+        2.8. Operators.
+         An operator is a symbol that makes the machine to take an action.
+         Operators act on operands.
+         C++ provides several categories of operators, including the
+        following:
+        Assignment operator
+        Arithmetic operator
+        Relational operator
+        Logical operator
+        Increment/decrement operator
+        Conditional operator
+        Comma operator
+        The size of operator
+        Explicit type casting operators, etc
+        21</p>
+        <p>2.8.1. Assignment operator (=).
+         The assignment operator causes the operand on the left side of the
+        assignment statement to have its value changed to the value on the
+        right side of the statement.
+        E.g.: x = 35; assigns the integer value 5 to variable x.
+         All left values are right values, but not the other way round.
+        Example for this is a literal.
+        E.g.: x = 5; but not 5 = x;
+        2.8.1.1.Compound assignment operators (+=, -=, *=, /=, %=, >>=, <<=,
+        &=, ^=).
+         The assignment operator has a number of variants, obtained by
+        combining it with other operators.
+        E.g.:
+        value += increase; is equivalent to value = value + increase;
+        a -= 5; is equivalent to a = a – 5;
+        a /= b; is equivalent to a = a / b;
+        price *= units + 1 is equivalent to price = price * (units + 1);
+         And the same is true for the rest.
+        2.8.2. Arithmetic operators (+, -, *, /, %).
+         Except for remainder or modulo (%), all other arithmetic operators
+        can accept a mix of integers and real operands. Generally, if both
+        operands are integers then, the result will be an integer. However,
+        if one or both operands are real then the result will be real.
+         When both operands of the division operator (/) are integers, then
+        the division is performed as an integer division and not the normal
+        division we are used to.
+         Integer division always results in an integer outcome.
+         Division of integer by integer will not round off to the next integer</p>
+        
+        E.g.:
+        9/2 gives 4 not 4.5
+        -9/2 gives -4 not -4.5
+         To obtain a real division when both operands are integers, you
+        should cast one of the operands to be real.
+        E.g.:
+        int cost = 100;
+        Int volume = 80;
+        Double unitPrice = cost/(double)volume;
+         The modulo(%) is an operator that gives the remainder of a division
+        of two integer values. For instance, 13 % 3 is calculated by integer
+        22
+        dividing 13 by 3 to give an outcome of 4 and a remainder of 1; the
+        result is therefore 1.
+        E.g.:
+        a = 11 % 3
+        a is 2
+        <p><h1>chapter three</h1></p>
+        2.8.3. Relational operator (==, !=, > , <, >=, <=).
+         In order to evaluate a comparison between two expressions, we can
+        use the relational operator.
+         The result of a relational operator is a bool value that can only be
+        true or false according to the result of the comparison.
+        E.g.:
+        p
+        
+        (7 = = 5) would return false or returns 0
+        (5 > 4) would return true or returns 1
+         The operands of a relational operator must evaluate to a number.
+        Characters are valid operands since they are represented by
+        numeric values. For E.g.:
+        ‘A’ < ‘F’ would return true or 1. it is like (65 < 70)
+        2.8.4. Logical Operators (!, &&, ||):
+         Logical negation (!) is a unary operator, which negates the logical
+        value of its operand. If its operand is non zero, it produce 0, and if
+        it is 0 it produce 1.</p>
+        <p> Logical AND (&&) produces 0 if one or both of its operands
+        evaluate to 0 otherwise it produces 1.
+         Logical OR (||) produces 0 if both of its operands evaluate to 0
+        otherwise, it produces 1.
+        E.g.:
+        !20 //gives 0
+        10 && 5 //gives 1
+        10 || 5.5 //gives 1
+        10 && 0 // gives 0
+        N.B. In general, any non-zero value can be used to represent the
+        logical true, whereas only zero represents the logical false.
+         Think about the following code:
+        x / y > z || y = = 0
+         What will be the result if y is equal to 0? Easy, the result is true,
+        many of you might say. Actually a run time error called arithmetic
+        exception will result, because the expression x / y causes a problem
+        known as division-by-zero.
+         However, if we reverse the order to:
+        y = = 0 || x / y > z then no arithmetic exception will occur. Why?
+        Because the test x / y > z will not be evaluated.
+        23
+         For OR operator (||), if the left operand is evaluated to true, then
+        the right operand will not be evaluated, because the whole expression
+        is true, whether the value of the right operand is true or false. We
+        call such evaluation method a short-circuit evaluation.
+         For AND operator (&&), the right operand need not be evaluated if
+        the left operand is evaluated to false, because the result will then be
+        false whether the value of the right operand is true or false.
+        2.8.5. Increment/Decrement Operators: (++) and (--)
+         The auto increment (++) and auto decrement (--) operators provide
+        a convenient way of, respectively, adding and subtracting 1 from a
+        numeric variable.
+        E.g.:
+        if a was 10 and if a++ is executed then a will automatically
+        changed to 11.
+        2.8.5.1. Prefix and Postfix:
+         The prefix type is written before the variable. Eg (++ myAge),
+        whereas the postfix type appears after the variable name
+        (myAge ++).
+         In a simple statement, either type may be used. But in complex
+        statements, there will be a difference.
+         The prefix operator is evaluated before the assignment, and the
+        postfix operator is evaluated after the assignment.</p><p>
+        E.g.
+        int k = 5;
+        (auto increment prefix) y= ++k + 10; //gives 16 for y
+        (auto increment postfix) y= k++ + 10; //gives 15 for y
+        (auto decrement prefix) y= --k + 10; //gives 14 for y
+        (auto decrement postfix) y= k-- + 10; //gives 15 for y
+        2.8.6. Conditional Operator (?:)
+         The conditional operator takes three operands. It has the general
+        form:
+        Syntax:
+        operand1 ? operand2 : operand3
+         First operand1 is evaluated. If the result of the evaluation is non
+        zero, then operand2 will be the final result. Otherwise,
+        operand3 is the final result.
+        E.g.: General Example
+        Z=
+        25
+        then I will have a value of 3 ignoring the decimal point
+        2.9. Operator Precedence.
+         The order in which operators are evaluated in an expression is
+        significant and is determined by precedence rules. Operators in
+        higher levels take precedence over operators in lower levels.
+        Precedence Table:
+        Level Operator Order
+        Highest ++ -- (post fix) Right to left
+        sizeof() ++ -- (prefix) Right to left
+        * / % Left to right
+        + - Left to right
+        < <= > >= Left to right
+        == != Left to right
+        && Left to right
+        || Left to right
+        ? : Left to right
+        = ,+=, -=, *=, /=,^= ,%=, &= ,|= ,<<= ,>>= Right to left
+        , Left to right
+        E.g.
+        a = = b + c * d
+        a = = b + c * d
+        c * d is evaluated first because * has a higher precedence than + and = =.
+        The result is then added to b because + has a higher precedence than = =
+        And then == is evaluated.
+         Precedence rules can be overridden by using brackets.
+        E.g. rewriting the above expression as:
+        a = = (b + c) * d causes + to be evaluated before *.
+         Operators with the same precedence level are evaluated in the order
+        specified by the column on the table of precedence rule.
+        E.g. a = b += c the evaluation order is right to left, so the first b += c is
+        evaluated followed by a = b.</p></span>
+</body>
+</html>
